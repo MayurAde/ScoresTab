@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Score Tab</title>
+  </head>
+  <body>
+    <div class="block">
+      <header>
+        <h1 class="title">Cricket Score Calculator</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col aligner partA">
+              <h4><span class="badge bg-light text-dark">CSK</span></h4>
+              <h3>--/--</h3>
+              <h4>Yet to Bat</h4>
+            </div>
+            <div class="col aligner partB">
+              <h4><span class="badge bg-light text-dark">MI</span></h4>
+              <h3>
+                <span class="runs">0</span>/<span class="wickets">0</span>
+              </h3>
+              <h4>
+                Overs: <span class="over">0</span>.<span class="ball">0</span>
+              </h4>
+              <h5>RR: <span class="rr">0.00</span></h5>
+            </div>
+          </div>
+          <hr />
+          <div class="aligner">
+            <button type="button" class="btn btn-secondary btn-sm reset">
+              <i class="fas fa-sync"></i> Reset
+            </button>
+            <button type="button" class="btn btn-secondary btn-sm undo">
+              <i class="fas fa-undo-alt"></i> Undo
+            </button>
+            <button type="button" class="btn btn-secondary btn-sm pause">
+              <i class="fas fa-stop"></i> Pause Innings
+            </button>
+          </div>
+          <div class="aligner">
+            <button type="button" class="btn btn-outline-light add0">+0</button>
+            <button type="button" class="btn btn-outline-light add1">+1</button>
+            <button type="button" class="btn btn-outline-light add2">+2</button>
+            <button type="button" class="btn btn-outline-light add3">+3</button>
+            <button type="button" class="btn btn-outline-light add4">+4</button>
+            <button type="button" class="btn btn-outline-light add5">+5</button>
+            <button type="button" class="btn btn-outline-light add6">+6</button>
+            <button type="button" class="btn btn-danger addW">+W</button>
+          </div>
+          <div class="commentary aligner"></div>
+        </div>
+      </header>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

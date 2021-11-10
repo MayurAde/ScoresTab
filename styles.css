@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #08d9d6;
+  font-family: "Red Hat Mono", monospace;
+  color: white;
+}
+hr {
+	height:2px;
+	border-width:2px;
+	color:gray;
+	background-color:white"
+}
+
+.block {
+  background-color: #252a34;
+  width: 95%;
+  height: 600px;
+  margin: 30px auto 0;
+}
+
+.title {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 50px;
+}
+
+.blockA {
+  background-color: white;
+  position: relative;
+  left: auto;
+  width: 50%;
+  height: 100px;
+}
+.blockB {
+  background-color: grey;
+  position: relative;
+  right: 0;
+  width: 50%;
+  height: 100px;
+}
+
+.aligner {
+  text-align: center;
+  margin: 15px 0 ;
+  
+}
+
+.partA {
+  margin-top: 25px;
+  cursor: pointer;
+  border-right: 1px solid grey;
+  padding-top: 15px;
+}
+.partA:hover {
+  background-color: rgb(56, 56, 90);
+}
+
+.partB {
+  margin-top: 25px;
+  cursor: pointer;
+  border-left: 1px solid grey;
+  padding-top: 15px;
+}
+.partB:hover {
+  background-color: rgb(56, 56, 90);
+}
+
+
+.commentary{
+  margin-top: 25px;
+}
